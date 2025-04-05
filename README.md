@@ -2,6 +2,7 @@
 📱 iOS Product Inventory App with Embedded HTTP Server & QR Code Integration
 An all-in-one iOS inventory management system built using Swift that features local data storage, QR scanning, embedded web server, and product listing in a WebView.
 
+![Untitled design (1)](https://github.com/user-attachments/assets/2cc6d957-0d79-4267-a413-0025f12d8248)
 
 
 
@@ -11,8 +12,6 @@ An all-in-one iOS inventory management system built using Swift that features lo
 
 Product has: Name, Price, Image, QR Code string
 
-<!-- Markdown (won't resize) -->
-![Product View](https://github.com/user-attachments/assets/012eb4c6-7cf0-417f-bf24-835a2205bd49/IMG_4901)
 
 
 
