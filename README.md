@@ -10,10 +10,10 @@ An all-in-one iOS inventory management system built using Swift that features lo
 🔹 Core Features:
 ✅ Add, Edit, Delete Products
 
+![e (2)](https://github.com/user-attachments/assets/70e418bb-3797-4ac0-aeb3-09ee2d3dd081)
+
+
 Product has: Name, Price, Image, QR Code string
-
-
-
 
 Image and QR data is preserved if not changed during editing
 
@@ -24,8 +24,6 @@ Scan a QR code using camera
 Instantly fetch and display the matching product detail from the local database
 
 🧾 QR Code Generation
-![IMG_4902](https://github.com/user-attachments/assets/3eed1e47-a80e-4d4d-81c6-1e5e79328be4)
-
 Generates a scannable QR code for every product’s QR string using CoreImage
 
 QR image is displayed within product cells
