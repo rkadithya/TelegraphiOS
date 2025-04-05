@@ -66,3 +66,6 @@ ServerManager.swift – Centralized HTTP server setup using Telegraph
 DatabaseHelper.swift – Handles SQLite interaction
 
 Product.swift – Codable model for data representation
+
+
+
