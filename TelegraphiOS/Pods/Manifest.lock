@@ -1,0 +1,30 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - HTTPParserC (2.9.4)
+  - SQLite.swift (0.15.3):
+    - SQLite.swift/standard (= 0.15.3)
+  - SQLite.swift/standard (0.15.3)
+  - Telegraph (0.30.0):
+    - CocoaAsyncSocket (~> 7.6)
+    - HTTPParserC (~> 2.9)
+
+DEPENDENCIES:
+  - SQLite.swift
+  - Telegraph
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - HTTPParserC
+    - SQLite.swift
+    - Telegraph
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  HTTPParserC: aea14c3d2d4ac5beb3988781daa36dfa62e0d9ef
+  SQLite.swift: 8d054987f02728cc912b0eb5a9659650573a65a2
+  Telegraph: 12576b119324138e4929792af9e5a1085c2ecbc1
+
+PODFILE CHECKSUM: 6bce18b3b8cbf7936e83c6e5dbfb4ad15477579c
+
+COCOAPODS: 1.16.2
