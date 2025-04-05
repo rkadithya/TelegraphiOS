@@ -1,43 +1,59 @@
 # TelegraphiOS
-iOS Product Inventory App with Embedded HTTP Server
+📱 iOS Product Inventory App with Embedded HTTP Server & QR Code Integration
+An all-in-one iOS inventory management system built using Swift that features local data storage, QR scanning, embedded web server, and product listing in a WebView.
 
 🔹 Core Features:
-Local Database: Uses SQLite via a DatabaseHelper to persist product data (name, price, QR code, image).
+✅ Add, Edit, Delete Products
 
-CRUD Operations:
+Product has: Name, Price, Image, QR Code string
 
-✅ Create: Add products with image, price, and QR string.
+Image and QR data is preserved if not changed during editing
 
-🔄 Update: Edit any product details, while preserving unchanged data (like images).
+📷 QR Code Scanning
 
-🗑️ Delete: Swipe to delete products, both from local DB and via HTTP route.
+Scan a QR code using camera
 
-🔍 Read: Display a table of products with name, price, product image, and generated QR code.
+Instantly fetch and display the matching product detail from the local database
 
-QR Code Generation: Dynamically generates a QR image from the provided string using CoreImage.
+🧾 QR Code Generation
 
-🌐 Embedded HTTP Server:
-Uses Telegraph to host an internal RESTful API server on device.
+Generates a scannable QR code for every product’s QR string using CoreImage
 
-Available routes:
+QR image is displayed within product cells
 
-GET /products — Returns all stored products as JSON.
+🌐 Embedded HTTP Server (via Telegraph)
 
-POST /products — Accepts a product JSON with base64 image to save it.
+GET /products — Fetch all products
 
-DELETE /products/:id — Deletes a product by ID from the database.
+POST /products — Add a new product (with image encoded in base64)
+
+DELETE /products/:id — Delete a product
+
+Serves all data from local SQLite DB
+
+🗂️ Local SQLite Storage
+
+Uses a DatabaseHelper class to interact with SQLite for storing product info
+
+🌍 Product List in WebView
+
+The server also provides a web-accessible version of the product list
+
+A simple HTML-based product catalog is rendered inside a WKWebView in-app
 
 📦 Architecture:
-Modularized ServerManager.swift to handle all server logic.
+ProductListViewController – UI, product list & table view logic
 
-Clean MVC separation:
+EditProductViewController – Edit screen for updating items
 
-ViewController for UI & networking
+AddProductViewController – New product screen
 
-DatabaseHelper for persistence
+QRScannerViewController – Scans QR and shows product info
 
-Product model (Codable)
+ProductWebViewController – Displays server-hosted product list
 
-ServerManager for Telegraph routes
+ServerManager.swift – Centralized HTTP server setup using Telegraph
 
+DatabaseHelper.swift – Handles SQLite interaction
 
+Product.swift – Codable model for data representation
