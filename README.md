@@ -75,7 +75,7 @@ Product.swift – Codable model for data representation
 🚀 How to Run This Project
 ==================================================================
 
-1. Clone the repo Open Terminal ->   https://github.com/rkadithya/TelegraphiOS.git  
+1. Clone the repo Open Terminal ->  git clone https://github.com/rkadithya/TelegraphiOS.git  
 2. Open the project
     * Navigate to the folder:  TelegraphiOS -> TelegraphiOS.xcworkspace  
 3. Requirements
