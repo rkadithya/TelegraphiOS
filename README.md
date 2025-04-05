@@ -50,7 +50,10 @@ The server also provides a web-accessible version of the product list
 
 A simple HTML-based product catalog is rendered inside a WKWebView in-app
 
+==================================================================
 📦 Architecture:
+==================================================================
+
 ProductListViewController – UI, product list & table view logic
 
 EditProductViewController – Edit screen for updating items
@@ -67,5 +70,24 @@ DatabaseHelper.swift – Handles SQLite interaction
 
 Product.swift – Codable model for data representation
 
+
+==================================================================
+🚀 How to Run This Project
+==================================================================
+
+1. Clone the repo Open Terminal ->   https://github.com/rkadithya/TelegraphiOS.git  
+2. Open the project
+    * Navigate to the folder:  TelegraphiOS -> TelegraphiOS.xcworkspace  
+3. Requirements
+    * Xcode installed (latest version recommended)
+    * CocoaPods installed (pod --version should be 1.16.0 or above)
+
+4.Run the project
+    * Open TelegraphiOS.xcworkspace
+    * Select a simulator or device  (actual iPhone recommended over simulators)
+    * Press Run ▶️ — it should run without any errors
+
+    
+*Note : Please use actual device to run the project, since it supports QR code scanning and more compactible
 
 
