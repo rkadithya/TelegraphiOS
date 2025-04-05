@@ -44,6 +44,8 @@ Uses a DatabaseHelper class to interact with SQLite for storing product info
 
 🌍 Product List in WebView
 
+![e (4)](https://github.com/user-attachments/assets/09efef25-01e8-427a-8145-12f9b48bbe80)
+
 The server also provides a web-accessible version of the product list
 
 A simple HTML-based product catalog is rendered inside a WKWebView in-app
@@ -54,12 +56,10 @@ ProductListViewController – UI, product list & table view logic
 EditProductViewController – Edit screen for updating items
 
 AddProductViewController – New product screen
-![IMG_4903](https://github.com/user-attachments/assets/db1bb15f-9379-498f-9784-1f09d4859598)
 
 QRScannerViewController – Scans QR and shows product info
 
 ProductWebViewController – Displays server-hosted product list
-![IMG_4905](https://github.com/user-attachments/assets/7c916e90-2a0c-4f9a-af16-eeaca376502b)
 
 ServerManager.swift – Centralized HTTP server setup using Telegraph
 
