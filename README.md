@@ -11,7 +11,8 @@ An all-in-one iOS inventory management system built using Swift that features lo
 
 Product has: Name, Price, Image, QR Code string
 
-<img src="https://github.com/user-attachments/assets/012eb4c6-7cf0-417f-bf24-835a2205bd49/IMG_4901" alt="Product View" width="400"/>
+<!-- Markdown (won't resize) -->
+![Product View](https://github.com/user-attachments/assets/012eb4c6-7cf0-417f-bf24-835a2205bd49/IMG_4901)
 
 
 
